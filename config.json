@@ -1,0 +1,42 @@
+{
+ "Account": {
+     "Token": "282c5bc323d42960a81ca8d6af3e165d84159161fcb2c7c8174ac10e8e89aa295c61c84f27606f3012d3dedbaacf8ca8"
+     },
+ "Currency":"DOGE",
+ "Cutlose": "OFF",
+ "Client Seed":"ON",
+ "Profit": {
+        "Target Profit": "0",
+        "Stop If Profit": "OFF",
+        "Interval": "120"
+     },
+ "Target Win": "0",
+  "Lose Target": "0",
+  "Interval": "1",
+ "Config": [{
+     "Name Bet Set": "1 - Tester",
+     "Base Bet": "0.01",
+     "Max Bet": "Off",
+     "Chance": "30",
+     "Random Chance": {
+          "Toggle": "ON",
+          "Min": "11",
+          "Max": "60"
+        },
+     "Bet": {
+          "Bet": "Lo",
+          "Hi / Low": {
+              "Toggle": "ON",
+              "If Lose": "3",
+              "If Win": "1"
+            }
+        },
+     "If Win": "1",
+     "If Lose": "1.03",
+     "Reset If Win": "0",
+     "Reset If Lose": "0",
+     "Reset If Profit": "1",
+     "Interval": "0"
+     }
+  ]
+}
